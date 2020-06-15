@@ -445,7 +445,7 @@ b: Chúng ta cần phải rời khỏi đây và cách li bản thân mãi mãi 
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "sự cách li";
 ```
 
 (#act2c)
@@ -488,7 +488,7 @@ b: "LOẠI SIÊU RÁC THẢI KINH TỞM BIẾN THÁI"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "luật lệ";
 ```
 
 (#act2c)
@@ -518,7 +518,7 @@ b: ĐÓ LÀ HIỆU ỨNG CÁNH BƯỚM ĐẤY, CON NGƯỜI À! ĐÃ BAO NHIÊU 
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "Thế chiến Thứ I";
 ```
 
 (#act2c)
@@ -546,7 +546,7 @@ b: Con người à, chúng ta cần phải chạy khỏi lũ thây ma chỉ mu�
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "thây ma";
 ```
 
 (#act2c)
@@ -680,7 +680,7 @@ b: Và rồi họ phải khử trùng con drone đó để tiêu diệt MẦM B�
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "cách ly";`
 
 (#act2d)
 
@@ -719,7 +719,7 @@ b: bởi vì họ chính là LOẠI SIÊU RÁC THẢI KINH TỞM BIẾN THÁI
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "luật lệ";`
 
 (#act2d)
 
@@ -743,7 +743,7 @@ b: BÙM, CẬU PHÁ HOẠI HỆ THỐNG CHĂM SÓC SỨC KHỎE VÀ HÀNG TRĂM 
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "hiệu ứng cánh bướm";`
 
 (#act2d)
 
@@ -763,7 +763,7 @@ b: Rồi họ sẽ CẮN CẬU và biến cậu thành một tên NÃO PHẲNG v
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "thây ma";`
 
 (#act2d)
 
@@ -863,7 +863,7 @@ b: AHHH CHÚNG TA SẮP CHẾT! CHÚNG TA SẮP CHẾT CHÚNG TA SẮP CHẾT CH
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "đồ pha chế";`
 
 (#act2d)
 
@@ -1083,11 +1083,11 @@ b: Kí ức của cậu chỉ là trọng lượng synap, và lí do của cậu
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: Nên nếu tôi "chỉ là chất hóa học" thì có nghĩa *tôi* hoàn toàn vô lý... và như vậy cũng có nghĩa *cậu* hoàn toàn vô nghĩa!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: Và nếu chúng ta *đều* vô nghĩa, thì chúng ta sẽ *chẳng bao giờ* tìm được sự hạnh phúc!
 
 `bb({body:"scream_a_1"})`
 
@@ -1108,19 +1108,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: Chờ đã nào... "họ" bảo rằng cảm xúc có giá trị, rằng cậu luôn nên chấp nhận cảm xúc của bản thân.
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: Nhưng "họ" cũng bảo rằng cảm xúc thật vô lý, rằng cảm xúc không đáng tin.
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: Chời má, "họ" đã luôn lừa dối chúng ta!
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: "HỌ" KHIẾN CHÚNG TA MÂU THUẪN ĐỂ BẮT CHÚNG TA PHỤ THUỘC VÀO NHỮNG THỨ NHƯ TỰ GIÚP ĐỠ SIÊU RẮC RỐI
 
 ```
 music(null);
@@ -1139,62 +1139,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: Tôi ghét điều này. Trời má đau quá, tôi *ghét* điều này.
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: Tôi không thể nhân nhượng với cậu. Tôi không thể phớt lờ cậu. Tôi không thể chiến đấu với cậu. 
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: Dù cho tôi có làm gì đi chăng nữa, dường như tôi không thể thoát khỏi c--
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: Ừm có lẽ cậu KHÔNG *ĐỊNH* THOÁT KHỎI TÔI ĐÂU HA.
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: Cậu nghĩ *tôi* cảm giác thế nào hả, con người?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: Tôi đang cố gắng hết mình trở thành một chú chó bảo vệ cậu, nhưng cậu chỉ xem tôi như một Con sói lớn xấu xa!
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: Dù vậy tôi vẫn *cố* cảnh báo nguy hiểm cho cậu! Nhiều nguy hiểm *hơn*! Những nguy hiểm *khác*!
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: Nhưng dù cho tôi có cố bảo vệ cậu, cậu *vẫn* nghĩ tôi là kẻ địch của cậu!
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: Tôi đã làm sai điều gì?!
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: Tôi *biêt* tôi không giỏi trong việc này. Nhưng tôi *đang cố gắng* đây, con người à!
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: ...Tôi đang cố gắng.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: Cậu không cần phải để ý đến lời cảnh báo của tôi, hay đồng ý với tôi, hay thậm chí *thích* tôi.
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: Tôi chỉ... tất cả những điều tôi muốn là cậu hãy kiên nhẫn với tôi.
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: Tôi chỉ muốn cậu ngồi với tôi một lúc, thay vì quay lưng đi và--
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: Này.
 
 ```
 hong({body:"look"});
@@ -1211,21 +1211,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: Trông có vẻ cậu đang chiến đấu với bản thân mình ha, nhóc.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: Điều đó rõ ràng quá à?
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: Cậu đang, ờ, lẩm bẩm với cái áo trùm đầu của mình về {{_.a2_hoodie_callback}} hay cái gì đó ấy.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1241,7 +1241,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: ôi trời tôi hơi rối một chút.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1249,7 +1249,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: Này. Cậu không đơn độc đâu, bạn tôi à. Sự lo âu luôn phổ biến ở khắp nơi mà.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1257,38 +1257,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: Nghe nha, mới hôm qua thôi, tôi nghe nói có ai đó ở trong trường đã lo lắng tới mức đập nát cái điện thoại của họ luôn!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: Nghe nha, mới hôm qua thôi, tôi nghe nói có ai đó đã cuộn tròn lại thành một quả bóng và khóc òa luôn!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: Nghe này: Tôi biết trong đầu cậu có một con vật.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: Chúng ta *đều* như thế cả. Đó là lí do tại sao tôi luôn tổ chức những bữa tiệc vào mỗi cuối tuần, để quên đi lo âu, quên đi những con vật đó.
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: nhưng sự lo âu của tôi...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: Đừng lo, nhóc à. Tôi cũng từng như cậu thôi. Nhưng rồi tôi tìm ra một mẹo nhỏ để khiến giọng nói tiêu cực đó im lặng mãi mãi...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1318,14 +1318,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: Đồ uống đặc biệt của tôi. Nó có hơi nặng hơn... ừm, mấy cái thứ đồ uống hợp pháp khác.
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: Tới luôn đi nào, ^nhóc yêu^!
 
 ```
 hong({body:"hold"});
@@ -1338,27 +1338,27 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Trời má.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Đây không phải là giải pháp tốt.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Đừng nhận đồ uống từ người lạ.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
-
-b: O--
-
-(#act2g)
-
-# act2g_2
 
 b: T--
 
 (#act2g)
 
+# act2g_2
+
+b: Đ--
+
+(#act2g)
+
 # act2g_3
 
-b: D--
+b: Đ--
 
 (#act2g)
 
@@ -1377,33 +1377,33 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: Mmm, ngon vãi mèo!
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: Hương vị êm dịu của "câm mồm đi lí trí," kết hợp với một chút "không còn cảm thấy gì nữa" thật tuyệt vời!
 
-b: This is bad, human. This is really, really bad.
+b: Tệ rồi đấy, con người ạ. Thật sự, thật sự tệ rồi đấy.
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Đây *thật sự* là thứ khiến người ta nghiện ngập đấy.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Tôi *biết* chủ bữa tiệc cũng đang cảm thấy rối rắm!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Hơn nữa, có thể bên trong có cần đấy!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2h_opt1
 
-b: This is *actu*--
+b: Đây *thật s*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: Hơn nữa, có th--
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: Tôi *biết* ch--
 
 (#act2h)
 
@@ -1422,15 +1422,15 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: Ngon lành, *và* rẻ hơn mấy phương pháp trị liệu!
 
-b: HUMAN PLEASE STOP
+b: CON NGƯỜI LÀM ƠN DỪNG LẠI ĐI
 
 h: Hehehe!
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: Và *cậu* định làm gì đây, ^đồ khốn nạn^?
 
-b: I'm so sorry, human.
+b: Tôi vô cùng xin lỗi, con người ạ.
 
 b: I'm going to have to use my SPECIAL ATTACK
 
