@@ -1499,43 +1499,43 @@ setTimeout(function(){
 
 h: CÁI ^QUẦN QUÈ^ GÌ ĐẤY
 
-b: I'm sorry. I needed to show you the consequences.
+b: Tôi xin lỗi. Tôi cần phải cho cậu biết được hậu quả.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: TÔI CÓ THỂ *NHÌN THẤY* XÁC MÌNH. TÔI CÓ THỂ *CẢM NHẬN* ĐƯỢC CẢM GIÁC MÌNH ĐÃ CHẾT.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: TÔI CÓ THỂ *NHÌN THẤY* ÁNH NHÌN KINH TỞM CỦA MỌI NGƯỜI. TÔI CÓ THỂ *NGHE THẤY* NHỮNG GÌ HỌ NÓI.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: TÔI CÓ THỂ *NGHE THÂY* TIẾNG XƯƠNG GÃY. TÔI CÓ THỂ *NGỬI ĐƯỢC* MÙI MÁU TRONG KHÔNG KHÍ.
 {{/if}}
 
-b: I'm sorry, human.
+b: Tôi xin lỗi, con người ạ.
 
-n: *FINISH THEM*
+n: *KẾT THÚC NÀO*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{CHIẾN ĐẤU: Đám chủ bữa tiệc.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BỎ CHẠY: Rời khỏi đây nào.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Cái tên đa nhân cách đấy đang lợi dụng cậu.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: Họ khiến cậu tha hóa, khiến cậu hỗn loạn như họ!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Đấm vào mặt tên khốn đó đi! Đấm chết mợ ả đi!
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI--
 
 `_.a2_ending = "fight";`
 
@@ -1543,15 +1543,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: Tôi *biết* những tên đến dự tiệc đấy sâu bên tỏng họ đều hỗn loạn. Họ đều có những vết thương với những thứ tồi tệ!
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: Và họ đang lừa cậu làm điều tương tự đấy! Họ đang tha hóa cậu! Chúng ta cần phải chạy ngay đi!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: CHẠY NGAY ĐI CHẠY NGAY ĐI CHẠY NGAY ĐI CHẠY NGAY ĐI CHẠY NGAY ĐI CHẠY NGAY Đ--
 
 `_.a2_ending = "flight";`
 
@@ -1580,7 +1580,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Cậu ổn chứ, nhóc?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1612,7 +1612,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: C-cậu...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1622,22 +1622,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: thật *nổi loạn*.
 
-r: I like that. Come to my party next weekend, cutie.
+r: Tôi thích cậu rồi đấy. Tuần sau nhớ đến tham dữ bữa tiệc của tôi nhé, cục cưng.
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: ok tạm biệt, bye, ciao, adiós, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: Con vật đấy hôm nay có thể thắng cậu, nhưng hãy quay lại nhé, tôi sẽ cho cậu uống thứ còn mạnh mẽ hơn thế!
 
-h2: sayōnara, auf wiedersehen, zài jiàn, shalom
+h2: さようなら, auf wiedersehen, 再见, shalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Cậu và tôi, nhóc à, chúng ta sẽ cho lũ động vật đấy biết ai mới là chủ nhân ở đây!
 
 (#act2k_end)
 
@@ -1645,23 +1645,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: được rồi tôi phải chạy ngay đây
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^Chết^ tiệt. Hôm nay con vật ấy thắng à?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: không không, chỉ là, ư, tôi muốn chạy marathon. muốn chạy thật nhanh.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Tuần sau nhớ đến bữa tiệc của tôi nhé, cục cưng. Tôi sẽ cho cậu uống thứ còn mạnh mẽ hơn thế.
 
-h2: ok thanks gonna run run run run run
+h2: được rồi cảm ơn chạy đây chạy chạy chạy chạy
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Cậu và tôi, nhóc à, chúng ta sẽ cho lũ động vật đấy biết ai mới là chủ nhân ở đây!
 
 (#act2k_end)
 
@@ -1684,13 +1684,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: Con người à! Cậu ổn chứ?!
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: Trời má, *mém* toang. Tí nữa là chúng ta--
 
 ```
 Game.clearText();
@@ -1708,11 +1708,11 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: Tuần sau tôi sẽ quay lại bữa tiệc.
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: Ở trận chiến kế tiếp, tôi sẽ không chỉ *đánh bại* cậu...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: Tôi sẽ *giết* ^cmn^ cậu.
 
 ```
 Game.clearText();
