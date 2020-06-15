@@ -193,7 +193,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Dù cho cả hai đã được kết đôi cho nhau trên Tinder á?
+a: Dù cho cả hai đã được kết đôi trên Tinder á?
 
 ```
 publish("act2",["dum",0]);
@@ -922,7 +922,7 @@ h: Tôi đang cố *bỏ đói* cậu đấy, đồ con sói bạo dâm ^chết 
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Không vấn đề gì, tôi sẽ khẳng định tích cực vậy.
+h: Mặc kệ cậu, tôi sẽ khẳng định tích cực vậy.
 
 h: *Tôi đáng yêu. Tôi tốt bụng. Tôi thông minh. Tôi xinh đẹp. Tôi đặc biệt.*
 
@@ -932,7 +932,7 @@ h: *Tôi đáng yêu. Tôi tốt bụng. Tôi thông minh. Tôi xinh đẹp. Tô
 
 [Cậu có biết sự khẳng định đều là những điều *chưa được chứng minh* không?](#act2d_disproven)
 
-[ôi trời ạ đừng gán những câu chuyện ngẫu nhiên là do người dân bản địa kể ra](#act2d_racist)
+[dân bản địa nào lại đi kể mấy thứ đấy](#act2d_racist)
 
 # act2d_disproven
 
@@ -1459,9 +1459,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: Cái ^quần què^ gì nữa đây?
 
-h: You're gonna yap more stupid *words* at me to--
+h: Cậu lại định sủa mấy câu *ngu ngốc* vào mặt tôi--
 
 ```
 bb({body:"special_c"});
@@ -1497,7 +1497,7 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: CÁI ^QUẦN QUÈ^ GÌ ĐẤY
 
 b: I'm sorry. I needed to show you the consequences.
 

@@ -425,7 +425,7 @@ b: Vậy thì!
 
 [Đồng ý, nếu không chúng ta sẽ chết vì cô đơn đấy!](#act1c_loner)
 
-[Từ chối, toàn là thuốc độc không đấy!](#act1c_drugs)
+[Từ chối, toàn là cần sa không đấy!](#act1c_drugs)
 
 [Mặc kệ đi, chúng ta chỉ khiến bữa tiệc thêm buồn chán thôi.](#act1c_sad)
 
@@ -681,7 +681,7 @@ h: Tôi--
 
 b: nhưng *giả sử*
 
-h: I--
+h: Tôi--
 
 `bb({eyes:"narrow_eyebrow"});`
 
@@ -1379,7 +1379,7 @@ h: Mọi người trông thật hạnh phúc. Trông thật vô lo. Không có �
 
 `hong({mouth:"anger"});`
 
-h: Trời ạ, tại sao tôi lại không thể như họ? Chỉ *bình thường* thôi chũng khó như vậy sao?
+h: Trời ạ, tại sao tôi lại không thể như họ? Chỉ *bình thường* thôi cũng khó như vậy sao?
 
 `bb({eyes:"normal_right"});`
 
@@ -1606,7 +1606,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT N--
+b: GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT N--
 
 (#act1j)
 
