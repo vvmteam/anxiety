@@ -1075,11 +1075,11 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Your deepest motivations are dopamine, your richest joys are serotonin.
+b: Động lực sâu thẳm nhất của cậu là dopamine, và điều cậu vui nhất là serotonin.
 
 `bb({body:"one_up"});`
 
-b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
+b: Kí ức của cậu chỉ là trọng lượng synap, và lí do của cậu chỉ là tín hiệu điện bị lỗi thôi.
 
 `bb({eyes:"normal", body:"normal"});`
 
