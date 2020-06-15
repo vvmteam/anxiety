@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- THE BIG META -->
+	<title>Cuộc phiêu lưu cùng Lo âu!</title>  <!-- TRANSLATE -->
+	<meta name="description" content="Một trò chơi lấy cảm hứng từ con người cùng sự lo âu của họ. Bạn nhập vai vào sự lo âu của họ." />  <!-- TRANSLATE: content -->
+	<link rel="icon" type="image/png" href="favicon.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ncasenmare">
+	<meta name="twitter:title" content="Cuộc phiêu lưu cùng Lo âu!">  <!-- TRANSLATE: content -->
+	<meta name="twitter:description" content="Một trò chơi lấy cảm hứng từ con người cùng sự lo âu của họ. Bạn nhập vai vào sự lo âu của họ.">  <!-- TRANSLATE: content -->
+	<meta name="twitter:image" content="https://ncase.me/anxiety/sharing/thumb.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Cuộc phiêu lưu cùng Lo âu!">  <!-- TRANSLATE: content -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ncase.me/anxiety/">
+	<meta property="og:image" content="https://ncase.me/anxiety/sharing/thumb.png">
+	<meta property="og:description" content="Một trò chơi lấy cảm hứng từ con người cùng sự lo âu của họ. Bạn nhập vai vào sự lo âu của họ.">  <!-- TRANSLATE: content -->
+	<meta property="og:site_name" content="Cuộc phiêu lưu cùng Lo âu!">  <!-- TRANSLATE: content -->
+	
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="styles/game.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- - - - - - - - - - - - - - - - - - -->
+<!-- THE GAME ITSELF, FRONT AND CENTER -->
+<!-- - - - - - - - - - - - - - - - - - -->
+
+<div id="game_container">
+	
+	<!-- The main game -->
+	<canvas id="game_canvas"></canvas>
+	<div id="game_words"></div>
+	<div id="game_hp"></div>
+	<div id="game_choices"></div>
+
+	<!-- Click to Advance-->
+	<div id="click_to_advance">
+		<span id="cta_text1">
+			<div class="mini-icon" pic="click" style="top:3px;"></div>
+			<span id="instructions_if_not_mobile">
+				nhấp chuột hoặc phím space <!-- TRANSLATE THIS -->
+			</span>
+			<span id="instructions_if_mobile" style="display:none">
+				chạm vào nơi bất kì <!-- TRANSLATE THIS -->
+			</span>
+		</span>
+		<span id="cta_text2">
+			<div class="mini-icon" pic="next"></div>
+		</span>
+	</div>
+
+	<!-- HACK: SPECIAL ATTACK -->
+	<div id="special_attack"></div>
+
+	<!-- Bottom Corner Tabs -->
+	<div id="gear" style="display:none" onclick="publish('show_options'); sfx('ui_button1');">
+		<div class="icon">
+			<div class="mini-icon" pic="gear"></div>
+		</div>
+	</div>
+	<div id="huh" style="display:none">
+		<div class="icon">
+			<div class="mini-icon" pic="about"></div>
+		</div>
+	</div>
+
+	<!-- Paused Screen -->
+	<div id="paused">
+		<div>
+			<!-- TRANSLATE THIS -->
+			<p style="font-size:40px">tạm ngưng</p>
+			<div>nhấp chuột ở nơi bất kì để tiếp tục hoảng sợ</div>
+		</div>
+	</div>
+
+	<!-- LOADING -->
+	<div id="loading">
+		<div id="loading_bar">
+			<div id="loading_bar_bg"></div>
+			<div id="loading_pic"></div>
+		</div>
+	</div>
+
+	<!-- CONTENT NOTES -->
+	<div id="content_notes">
+
+		<!-- TRANSLATE THIS -->
+		<p style="margin-top: 0.6em;">
+			<i style="color:#ff4040">Cuộc phiêu lưu cùng Lo âu</i> là câu chuyện về, ừm, sự lo âu.
+		</p>
+		<p>
+			Nhưng tôi làm ra trò chơi này để <i>dành cho</i> những người mắc chứng rối loạn lo âu, giống như tôi.
+			Hy vọng rằng qua cách biểu đạt hài hước của trò chơi, bạn có thể thấy được bản chất của sự lo âu.
+			Và, có lẽ thôi nhé, giảm bớt đi phần nào nỗi sợ hãi.
+		</p>
+		<p>
+			Ngoài ra cũng có vài hình vẽ người que khá xấu cùng một chú sói hiếu động.
+			Tận hưởng nào!
+		</p>
+		<p style="color:#999; font-size: 16px; line-height: 1.3em;">
+			ghi chú khác: lạm dụng rượu, tình dụng<span class="hide-if-cuss-free">, @✩$!nhiều từ văng tục</span>
+		</p>
+		
+		</p>
+			<a href="#popup1"><b>các thuật ngữ trong trò chơi</b></a>
+<br>
+			<a target="_blank" href="https://ncase.me/mental-health/">mẹo &amp; tài nguyên sức khỏe tinh thần</a>
+		</p>
+		<div id="cn_ok" onclick="publish('hide_cn');" style="float:none">
+			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div>
+		</div>
+
+	</div>
+
+	<!-- ABOUT -->
+	<div id="about"><!-- about=yes-->
+		<div id="about_words">
+		
+			<!-- TRANSLATE THIS -->
+			<div style="font-size: 40px; margin-top: 42px; line-height: 30px;">
+				tài nguyên
+				<a href="https://ncase.me/mental-health/" target="_blank">sức khỏe tinh thần</a>
+			</div>
+
+			<div style="margin-top: 26px; color: #999;">
+				&mdash; hoặc &mdash;
+			</div>
+			
+			<div style="font-size: 25px; text-align: left; width: 170px;
+						margin-left: 165px; line-height: 25px; margin-top: 31px;">
+				
+				<!-- TRANSLATE ALL THIS -->
+				<div>
+					chơi thêm game
+					<a href="https://ncase.me" target="_blank">của tác giả</a>
+				</div>
+				<div style="margin-top: 32px;">
+					ủng hộ<br>tác giả
+					<a href="https://www.patreon.com/ncase" target="_blank">trên Patreon</a>
+				</div>
+				<div style="margin-top: 28px;">
+					đắm chìm vào những giai điệu của
+					<a href="https://chezmonplaisir.bandcamp.com/album/anxiety" target="_blank">Monplaisir</a>
+				</div>
+
+			</div>
+
+			<div id="replay"></div>
+
+			<div style="clear:both;"></div>
+			<div id="close_about" style="margin: 0; float: right; margin-top: 20px;">đóng</div> <!-- TRANSLATE -->
+
+		</div>
+	</div>
+
+	<!-- OPTIONS -->
+	<div id="options">
+		<div style="width: 150px; height: 63px; float: left;">
+			<div id="text_speed_preview"></div>
+			<input id="text_speed_slider" type="range" min=0 value=0.5 max=1 step="0.01"/>
+		</div>
+		<div style="float: right; width: 135px; height: 63px;">
+			<!-- TRANSLATE THIS -->
+			Và tiếp tục
+			<div id="text_automatic_toggle">nhấp chuột</div>
+		</div>
+		<div style="clear:both"></div>
+		<span id="volume_options">
+			<div>Âm lượng:</div> <!-- TRANSLATE -->
+			<input id="volume_slider" type="range" min=0 max=1 value=1 step="0.01"/>
+		</span>
+		<div id="options_ok">
+			ok <div class="mini-icon" pic="ok" style="top: 3px;"></div> <!-- TRANSLATE -->
+		</div>
+	</div>
+
+	<!-- Dialogue position debugging elements -->
+	<div class='debug' style='position: absolute; width: 5px; height: 250px; background: red;'></div>
+	<div class='debug' style='position: absolute; width: 5px; height: 80px; background: white;'></div>
+
+</div>
+
+<div class="debug" id="section_debug_list"></div>
+
+<!-- - - - - - - - - - - - - - - - - - -->
+<!-- SHTUFF IN THE CORNER - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - -->
+
+<!-- TRANSLATE ALL OF THIS -->
+
+<div class="corner-text" id="topleft">
+
+Được tạo ra bởi
+<a href="https://ncase.me/" target="_blank">Nicky Case</a>
+<br>
+Âm nhạc bởi
+<a href="https://loyaltyfreakmusic.com" target="_blank">Monplaisir</a>
+<br>
+Code bổ sung bởi
+<a href="https://spacie.me/" target="_blank">Spacie</a>
+<br>
+<a href="https://github.com/ncase/anxiety#full-credits" target="_blank">Toàn bộ thông tin</a>
+<br>
+<!--Fan-Made Translations!
+<br>
+<a href="//notdotteam.github.io/anxiety/">Русский</a>
+<br>
+<a href="https://lucasgcb.github.io/anxiety/">Português do Brasil</a>
+<br>
+<a href="https://jonasreich.github.io/anxiety/">Deutsch</a>
+<br>
+<a href="https://jorgeygari.github.io/anxiety/">Español (Europeo)</a>
+<br>
+<a href="https://fantasmashy.github.io/anxiety-Es-La/">Español (Latino)</a>
+<br>
+<a href="https://z-lyen.github.io/anxiety/">中文</a>
+<br>
+<a href="https://audreyt.github.io/anxiety/">中文（臺灣）</a>
+<br>
+...
+<br>
+<a href="https://github.com/ncase/anxiety#how-to-translate" target="_blank">(make your own?)</a-->
+</div>
+
+<div class="corner-text2" id="bottomleft">
+<div class="box">
+	<p><a href="#popup1"><b>■ Thuật ngữ</b></a></p>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Thuật ngữ</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+<p style="text-align:justify">⚬ <b>Tweet</b>: Đăng một thứ gì đó trên trang cá nhân Twitter của bản thân.<br>
+⚬ <b>Retweet</b>: Chia sẻ lại một tweet (bài đăng) của ai đó về trang cá nhân Twitter của bản thân.<br>
+⚬ <b>Subtweet</b>: Đăng một bài đăng có nội dung đề cập đến ai đó, nhưng không nhắc đến tên họ (có thể là đả kích, nói xấu).<br>
+⚬ <b>Cortisol</b>: Một loại hoocmon sinh ra khi bị stress. Nếu sau đó nồng độ Cortisol vẫn ở mức cao có thể khiến cơ thể gặp một số bệnh nguy hiểm.<br>
+⚬ <b>Parody</b>: Sản phẩm được chế lại dựa trên một sản phẩm gốc.<br>
+⚬ <b>Con Tatu</b>: Con Tatu (Armadillo) là một loại thú có mai có thể cuộn tròn người lại được.<br>
+⚬ <b>Hiệu ứng Cánh bướm</b>: Hiệu ứng cánh bướm (butterfly effect) là cách gọi dùng để mô tả một sự thay đổi nhỏ có thể dẫn tới hệ quả vô cùng lớn.<br>
+⚬ <b>Khí CO</b>: Là một chất khí không màu, không mùi, bắt cháy và có độc tính cao.<br>
+⚬ <b>Lãnh thổ Yukon</b>: Yukon là lãnh thổ liên bang nhỏ nhất và xa nhất của Canada.<br>
+⚬ <b>Drone</b>: Phương tiện bay không người lái.<br>
+⚬ <b>Google Scholar</b>: Google Scholar là một dịch vụ tìm kiếm miễn phí đánh chỉ mục toàn văn các bài luận có tính học thuật trong các nội dung đã xuất bản.<br>
+⚬ <b>Dopamine, Serotonin</b>: Đều là chất dẫn truyền thần kinh.<br>
+</p>
+		</div>
+	</div>
+</div>
+
+<!--img src="sprites/about/cc0.png" height="30" style="opacity:0.7"/>
+<br>
+You're already free to reuse &amp; remix this for any use!
+<a href="https://github.com/ncase/anxiety#public-domain" target="_blank">(huh?)</a>
+<br>
+<a href="https://github.com/ncase/anxiety" target="_blank">Get the full source code</a-->
+</div>
+
+<div class="corner-text" id="topright">
+
+<!--Share on an anxiety-app:
+<span id="sharing_title">
+	Adventures With Anxiety!
+</span>
+<span id="sharing_desc">
+	I just played this story-game about a human and their anxiety! You play *as* the anxiety. 😱
+</span>
+<div id="share">
+	<a id="share_link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fncase.me%2Fanxiety%2F" target="_blank" class="no_deco">
+		<div id="share_fb"></div>
+	</a>
+	<a id="share_link_tw" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fncase.me%2Fanxiety%2F&text=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+		target="_blank" class="no_deco">
+		<div id="share_tw"></div>
+	</a>
+	<a id="share_link_em" href="mailto:?subject=Adventures%20with%20Anxiety!&body=I%20just%20played%20this%20story-game%20about%20a%20human%20and%20their%20anxiety!%20You%20play%20*as*%20the%20anxiety.%20%F0%9F%98%B1%20https%3A%2F%2Fncase.me%2Fanxiety%2F"
+		target="_blank" class="no_deco">
+		<div id="share_em"></div>
+	</a>
+</div>
+<br>
+For your sharing pleasure:<br>
+<a href="sharing" target="_blank">Videos &amp; Thumbnails</a>
+</div-->
+</div>
+
+<div class="corner-text" id="bottomright">
+<p>
+Việt hóa bởi
+<a href="https://www.youtube.com/channel/UCAFTPQbzHU-ulwYzOAv5Qtw" target="_blank">V.V.M Team</a>
+<br>
+Hỗ trợ bởi
+<a href="https://www.youtube.com/channel/UCk6zjonUuEBj88vpHaj8HlA" target="_blank">Dương FG</a>
+<p>
+<!--a href="https://ncase.me/mental-health/" target="_blank">Mental Health Tips &amp; Resources</a>
+<span class="hide-if-cuss-free">
+	<br><br>
+	<a href="?c=1">Cuss-Free Mode</a><br>
+	(for educators who want to avoid an awkward PTA meeting)
+</span-->
+</div>
+
+
+</body>
+</html>
+
+<!-- SCRIPTS -->
+<script src="scripts/lib/createImageBitmap.js" charset="utf-8"></script>
+<script src="scripts/lib/tickable_observer.js" charset="utf-8"></script>
+<script src="scripts/lib/helpers.js" charset="utf-8"></script>
+<script src="scripts/lib/rsvp.min.js" charset="utf-8"></script>
+<script src="scripts/lib/minpubsub.min.js" charset="utf-8"></script>
+<script src="scripts/lib/howler.min.js" charset="utf-8"></script>
+
+<script src="scripts/game/Loader.js" charset="utf-8"></script>
+<script src="scripts/game/Game.js" charset="utf-8"></script>
+<script src="scripts/game/Sprite.js" charset="utf-8"></script>
+<script src="scripts/game/HP.js" charset="utf-8"></script>
+<script src="scripts/game/BG_Anxiety.js" charset="utf-8"></script>
+<script src="scripts/game/Character.js" charset="utf-8"></script>
+<script src="scripts/game/Sounds.js" charset="utf-8"></script>
+<script src="scripts/game/Options.js" charset="utf-8"></script>
+<script src="scripts/game/About.js" charset="utf-8"></script>
+<script src="scripts/game/ContentNotes.js" charset="utf-8"></script>
+<script src="scripts/game/Sharing.js" charset="utf-8"></script>
+
+<!-- INTRO -->
+<script src="scripts/intro/Intro_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/intro/Intro_BG.js" charset="utf-8"></script>
+
+<!-- ACT I -->
+<script src="scripts/act1/Act1_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/act1/Act1_Hong.js" charset="utf-8"></script>
+<script src="scripts/act1/Act1_Beebee.js" charset="utf-8"></script>
+<script src="scripts/act1/Act1_Outro_BG.js" charset="utf-8"></script>
+
+<!-- ACT II -->
+<script src="scripts/act2/Act2_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/act2/Act2_BG.js" charset="utf-8"></script>
+<script src="scripts/act2/Act2_Hong.js" charset="utf-8"></script>
+<script src="scripts/act2/Act2_Beebee.js" charset="utf-8"></script>
+
+<!-- ACT III -->
+<script src="scripts/act3/Act3_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/act3/Act3_BG.js" charset="utf-8"></script>
+<script src="scripts/act3/Act3_Hong.js" charset="utf-8"></script>
+<script src="scripts/act3/Act3_Beebee.js" charset="utf-8"></script>
+
+<!-- ACT IV -->
+<script src="scripts/act4/Act4_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/act4/Act4_BG.js" charset="utf-8"></script>
+<script src="scripts/act4/Act4_Hong.js" charset="utf-8"></script>
+<script src="scripts/act4/Act4_Beebee.js" charset="utf-8"></script>
+
+<!-- CREDITS -->
+<script src="scripts/credits/Credits_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/credits/Credits_BG.js" charset="utf-8"></script>
+
+<!-- INTERMISSION -->
+<script src="scripts/intermission/Intermission_SceneSetup.js" charset="utf-8"></script>
+<script src="scripts/intermission/Intermission_BG.js" charset="utf-8"></script>
+
+<!-- LET'S GO! -->
+<script src="scripts/main.js" charset="utf-8"></script>
