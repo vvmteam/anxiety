@@ -438,7 +438,7 @@ n2: TỔNG NỖI SỢ ĐÃ DÙNG:
 
 n2: *BỊ TỔN HẠI* {{_.attack_harm_total}}, *KHÔNG ĐƯỢC YÊU* {{_.attack_alone_total}}, *LÀM NGƯỜI XẤU* {{_.attack_bad_total}}
 
-n2: CẬU MUỐN NÓI VỀ NỖI SỢ NÀO TRƯỚC? (CẬU CÓ THỂ NÓI VỀ NHỮNG NỖI SỢ KHÁC SAU)
+n2: BẠN MUỐN NÓI VỀ NỖI SỢ NÀO TRƯỚC? (BẠN CÓ THỂ NÓI VỀ NHỮNG NỖI SỢ KHÁC SAU)
 
 ```
 _.a4_fears_discussed = 0;
@@ -628,7 +628,7 @@ bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: Ý tớ là, có thể nói rằng chó cũng sợ sấm sét.
+h: Ý tôi là, có thể nói rằng chó cũng sợ sấm sét.
 
 `hong({ body:"hands_1" });`
 
@@ -675,7 +675,7 @@ b: Ư ư.
 
 `bb({ eyes:"annoyed" })`
 
-b: Chúng ta *chỉ* thấy được những gì xảy ra khi cậu mất đi nỗi sợ - cậu đặt bản thân mình vào một tình huống nguy hiểm *thật sự*.
+b: Chúng ta *chỉ* thấy được những gì xảy ra khi cậu mất đi nỗi sợ - cậu đã đặt bản thân mình vào một tình huống nguy hiểm *thật sự*.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
@@ -800,7 +800,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Ừm, mấy thứ đó vô cùng rắc rối, và không phải lúc nào tớ cũng có sẵn câu trả lời.
+h: Ừm, mấy thứ đó vô cùng rắc rối, và không phải lúc nào tôi cũng có sẵn câu trả lời.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
@@ -1172,9 +1172,9 @@ b: Ý cậu thì sao, con người?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Vậy là chúng ta đã tan vỡ. Hãy tự sửa chữa bản thân nào.](#act4_bad_fix)
+[Chúng ta đã tan vỡ rồi nhỉ. Hãy sửa chữa bản thân nào.](#act4_bad_fix)
 
-[Vậy là chúng ta đã tan vỡ. Hãy chấp nhận việc đó nào.](#act4_bad_accept)
+[Chúng ta đã tan vỡ rồi nhỉ. Hãy chấp nhận việc đó nào.](#act4_bad_accept)
 
 [Cảm ơn cậu.](#act4_thanks) `_.thanks_for = "hạnh phúc đạo đức";`
 
@@ -1615,12 +1615,12 @@ a: Y- Ý tôi là- là, nếu không được thì cũng ổn thôi, tôi chỉ.
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Đúng rồi cậu ngồi ở trên băng ghế! Ở bữa tiệc đầu tiên tớ tham gia...
+h2: Đúng rồi, cậu ngồi ở trên băng ghế! Ở bữa tiệc đầu tiên tớ tham gia...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Và hoảng loạn đến mức đấm vào mặt chủ bữa tiệcs.
+h2: Và hoảng loạn đến mức đấm vào mặt chủ bữa tiệc.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
@@ -1749,7 +1749,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY
+s: CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY CHẠY
 
 ```
 Game.clearText();
@@ -1805,11 +1805,11 @@ b: Họ bảo rằng chúng ta nên "hòa giải" với cảm xúc của chính 
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: Như tôi muốn chúng ta đi xa *hơn* việc hòa giải! Tôi muốn chúng ta trở thành *đồng minh*!
+b: Nhưng tôi muốn chúng ta đi xa *hơn* việc hòa giải! Tôi muốn chúng ta trở thành *đồng minh*!
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: Tôi muốn trở thành một chú chó bảo vệ ngoan ngoãn. Như cách cơn đói và cơn khác cảnh báo cậu về nhu cầu thể chất,
+b: Tôi muốn trở thành một chú chó bảo vệ ngoan ngoãn. Như cách cơn đói và cơn khát cảnh báo cậu về nhu cầu thể chất,
 
 `publish("act4", ["bb_closer", 8]);`
 
