@@ -238,11 +238,11 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: không không không không không không
+b: không không không không không không không không
 
 n: CHƯƠNG NÀY CÓ HAI KẾT THÚC. MỘT TRONG HAI CÁI *VÔ CÙNG, VÔ CÙNG TỒI TỆ*.
 
-b: KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG
+b: KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG KHÔNG
 
 n: HÃY LỰA CHỌN SÁNG SUỐT. BẢO VỆ CON NGƯỜI CỦA BẠN
 
@@ -305,7 +305,7 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: Cậu biết đây, tôi có thẻ đã  tin cậu... nếu trước đó cả tỉ tỉ tỉ tỉ lần cậu không nói những điều ngu ngốc.
+h: Cậu biết đây, tôi có thể đã tin cậu... nếu trước đó cả tỉ tỉ tỉ tỉ lần cậu không nói những điều ngu ngốc.
 
 h: Cậu là đồ sói vớ vẩn.
 
@@ -415,7 +415,7 @@ h: Tôi- Xin thứ lỗi, *cảm ơn* á?
 
 `bb({ eyes:"angry" });`
 
-b: Đây chính xác là li do tôi *tồn tại!* Bởi vì con người không thể tin rằng họ có thể tự bảo vệ bản thân mình!
+b: Đây chính xác là lí do tôi *tồn tại!* Bởi vì con người không thể tin rằng họ có thể tự bảo vệ bản thân mình!
 
 b: Tôi đã dành cả cuộc đời cố bảo vệ cậu khỏi mấy thứ ngu ngốc và giờ đây cậu chỉ đơn giản là--
 

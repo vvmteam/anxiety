@@ -1171,7 +1171,7 @@ b: Tôi đã làm sai điều gì?!
 
 `bb({body:"cry_2"});`
 
-b: Tôi *biêt* tôi không giỏi trong việc này. Nhưng tôi *đang cố gắng* đây, con người à!
+b: Tôi *biết* tôi không giỏi trong việc này. Nhưng tôi *đang cố gắng* đây, con người à!
 
 `bb({body:"cry_3"});`
 
@@ -1517,7 +1517,7 @@ b: Tôi xin lỗi, con người ạ.
 
 n: *KẾT THÚC NÀO*
 
-[{CHIẾN ĐẤU: Đám chủ bữa tiệc.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{CHIẾN ĐẤU: Đấm chủ bữa tiệc.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [{BỎ CHẠY: Rời khỏi đây nào.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1543,7 +1543,7 @@ b: ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI 
 
 # act2j_flight
 
-b: Tôi *biết* những tên đến dự tiệc đấy sâu bên tỏng họ đều hỗn loạn. Họ đều có những vết thương với những thứ tồi tệ!
+b: Tôi *biết* những tên đến dự tiệc đấy sâu bên trong họ đều hỗn loạn. Họ đều có những vết thương với những thứ tồi tệ!
 
 `bb({ body:"yell_1" });`
 

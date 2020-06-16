@@ -376,7 +376,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: cậu biết đấy có lẽ tớ nên kiểm tra điện thoại một chút.
+h: cậu biết đấy có lẽ tôi nên kiểm tra điện thoại một chút.
 
 ```
 sfx("rustle2");
