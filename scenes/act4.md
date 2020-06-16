@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (trò chơi đã tự động lưu)
 
 ```
 Game.clearText();
@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *hầy*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Vậy câu chuyện này đã dạy cho chúng ta bài học ^chết tiệt^ gì thế?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Thậm chí chúng ta đã *học* được gì?! Tôi *là* đứa ngu ngốc, "bạn" tôi *đang* lợi dụng tôi, và chúng ta mém *chết* à.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Ừa, còn chưa đề cập đến tiền viện phí nữa.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Ừa, còn chưa đề cập đến việc gan bị tàn phá nữa.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Ừa, kịch bản đó *cũng* tồi tệ khiếp đấy.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Ừa, tôi đã đúng.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Ừa. Thật may là có bảo hiểm y tế.
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Dù thế... chúng ta vẫn sống sót!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Cứ xác định là chúng ta vừa mất đi vài năm tuổi thọ ha...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Nhưng ít nhất chúng ta vẫn *có* tuổi thọ! Chúng ta vẫn sống!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Dù thế...
 
-h: Hm?
+h: Hửm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Chúng ta vẫn sống!
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Nhưng... cậu cũng đúng.
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: Hửm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Tôi *chỉ* là một con sói xấu xa. Nên khi cậu *thực sự* đối mặt với nguy hiểm, cậu - nói thẳng ra - là đừng tin tôi.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Dù thế, chúng ta vẫn sống!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Mặc kệ mọi thứ, chúng ta vẫn ở đây.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Trông cậu khá bình tĩnh nhỉ, dù cho chúng ta vừa mới được trải nghiệm cảm giác cận tử ha.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Trông cậu khá bình tĩnh nhỉ, dù cho chúng ta vừa mới được trải nghiệm cảm giác *cận* cận tử ha.
 {{/if}}
 
 ```
@@ -338,11 +338,11 @@ h: But me fighting you *also* sucks, because it just makes you yell louder...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Vậy thì có lẽ...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Có lẽ chúng ta không cần phải chiến đấu nữa.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -617,7 +617,6 @@ b: Thank you for making your statements recursively self-consistent.
 
 (#act4_something_else)
 
-
 # act4_harm_exposure
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
@@ -839,9 +838,6 @@ h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. Wh
 h: Actually, do not answer that.
 
 (#act4_something_else)
-
-
-
 
 # act4_alone
 
@@ -1074,7 +1070,6 @@ h: No.
 
 (#act4_something_else)
 
-
 # act4_alone_experiment_cheap
 
 b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
@@ -1135,8 +1130,6 @@ bb({ eyes:"annoyed", mouth:"smile" });
 h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
 
 (#act4_something_else)
-
-
 
 # act4_bad
 
@@ -1345,7 +1338,6 @@ h: Some things are more important than narrative convention. Such as mental heal
 
 (#act4_something_else)
 
-
 # act4_bad_accept
 
 ```
@@ -1481,9 +1473,6 @@ b: Then therapists should say *that* instead of some vague confusing word like "
 h: I guess they suck at using words, too.
 
 (#act4_something_else)
-
-
-
 
 # act4_something_else
 
