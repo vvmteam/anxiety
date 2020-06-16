@@ -738,7 +738,7 @@ b: Tôi xin lỗi.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: TôiI was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
 
 `bb({eyes:"sorry_up"});`
 
