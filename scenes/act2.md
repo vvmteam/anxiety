@@ -1432,7 +1432,7 @@ h: Và *cậu* định làm gì đây, ^đồ khốn nạn^?
 
 b: Tôi vô cùng xin lỗi, con người ạ.
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: Tôi sẽ phải dùng ĐÒN TẤN CÔNG ĐẶC BIỆT của tôi
 
 ```
 bb({body:"special_a"});

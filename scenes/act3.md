@@ -722,11 +722,11 @@ b: Tôi xin lỗi.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: Đáng lẽ tôi phải trở thành chú chó bảo vệ trung thành *của cậu*, nhưng tôi lại hành động như thể cậu phải vâng lời *tôi*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Giữa kẻ bảo vệ và tên cai ngục luôn có điểm khác biệt, và tôi đã vượt qua làn ranh đó.
 
 `bb({eyes:"sorry_down"});`
 
