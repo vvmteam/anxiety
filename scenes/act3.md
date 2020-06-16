@@ -702,7 +702,7 @@ h: Xin lỗi vì *điều gì* cơ?
 
 `bb({eyes:"sorry_down"});`
 
-b:  Nhiệm vụ của tôi là bảo vệ cậu trước những nguy hiểm *thật sự*, nhưng tôi cứ luôn sủa vào mấy cái xe hơi và người đưa thư.
+b: Nhiệm vụ của tôi là bảo vệ cậu trước những nguy hiểm *thật sự*, nhưng tôi cứ luôn sủa vào mấy cái xe hơi và người đưa thư.
 
 `bb({eyes:"sorry_up"});`
 

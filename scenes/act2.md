@@ -533,7 +533,7 @@ b: Thật sự thì, cậu biết điều gì tồi tệ hơn việc không ai t
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b:  Đó là, trở thành một trong *những* con động vật vui thú chạy theo bữa tiệc đấy.
+b: Đó là, trở thành một trong *những* con động vật vui thú chạy theo bữa tiệc đấy.
 
 `bb({body:"normal", mouth:"small"})`
 
