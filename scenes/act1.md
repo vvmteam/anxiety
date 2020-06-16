@@ -1085,7 +1085,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: vậy thì cứ mặc kệ vậy.
+b: cứ mặc kệ luôn đi.
 
 (#act1f)
 
