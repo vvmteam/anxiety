@@ -738,11 +738,11 @@ b: Tôi xin lỗi.
 
 `bb({eyes:"sorry_down"});`
 
-b: TôiI was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Tôi đã quá ám ảnh với việc đảm bảo không có gì tổn thương cậu, đến nỗi tôi không nhận ra rằng *tôi* đang tổn thương cậu.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Tôi là một chú chó hư.
 
 `bb({eyes:"sorry_down"});`
 
@@ -763,11 +763,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Ừa, ừm, dù sao đây cũng không phải là ý tưởng hay ho cho lắm.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Tôi làm việc này chỉ để khiến cậu hỗn loạn, và, ừm, cậu đã thực sự hỗn loạn.
 
-h: Let's just call this round a tie, okay?
+h: Coi như vòng này hòa nhé?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -776,11 +776,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: Được rồi.
 
-h: Okay.
+h: Được rồi.
 
-n: *TIE*
+n: *HÒA*
 
 `_.a3_ending = "walkaway";`
 
@@ -843,26 +843,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: Ồ *thôi nào*. Sau những điều con vật đấy làm với cậu, cậu chỉ định *bỏ cuộc* thôi sao?
 
-r: What's the matter, kid? Are you *scared?*
+r: Có vấn đề gì thế nhóc? Cậu *sợ* à?
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Đúng vậy.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Tôi sợ.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: Và như thế ổn mà!
+
+`publish('hong-next')`
+
+h2: Sợ không có gì sai trái cả.
 
 `publish('hong-next')`
 
@@ -931,7 +931,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: Hình như họ mới khóa cửa thì phải?
 
 ```
 Game.clearAll();
@@ -1019,7 +1019,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: không...
 
 (...501)
 
@@ -1038,7 +1038,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: không không không
 
 (...501)
 
@@ -1106,7 +1106,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: KHÔNG!
 
 (...400)
 
