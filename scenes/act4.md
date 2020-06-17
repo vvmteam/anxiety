@@ -520,7 +520,7 @@ b: Có lẽ thế, nhưng...
 
 `bb({ eyes:"sad_d" })`
 
-b: Có nhiều điều cần phải làm, nhiều thứ chúng ta cần phải khắc phục mà.Chúng ta phải *bắt đầu* từ đâu sao?
+b: Có nhiều điều cần phải làm, nhiều thứ chúng ta cần phải khắc phục. Chúng ta phải *bắt đầu* từ đâu?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
@@ -598,7 +598,7 @@ b: Ý tôi là, toàn bộ lí do cậu phớt lờ lời cảnh báo của tôi
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Nầu, cậu đsung mà. Chúng ta luôn muốn được kiểm soát sự an toàn mà. Mọi thứ đều trong tầm kiểm soát.
+h: Nầu, cậu đúng mà. Chúng ta luôn muốn được kiểm soát sự an toàn mà. Mọi thứ đều trong tầm kiểm soát.
 
 `bb({ eyes:"suspect" })`
 
@@ -831,7 +831,7 @@ bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Thôi nào, tôi chỉ là một đứa nhóc sinh viên đại học mong manh nhỏ bé, còn cậu là một cú sói to lớn đáng sợ mà. Điều tồi tệ gì có thể xảy ra--
+h: Thôi nào, tôi chỉ là một đứa nhóc sinh viên đại học mong manh nhỏ bé, còn cậu là một chú sói to lớn đáng sợ mà. Điều tồi tệ gì có thể xảy ra--
 
 `hong({ eyes:"normal", body:"point" });`
 
@@ -1072,7 +1072,7 @@ h: Không.
 
 # act4_alone_experiment_cheap
 
-b: Nói "chào" với người pha chế không giúp chúng ta có được huy chương vàng của giải Người Giao Thiệp Rộng Olypic đâu.
+b: Nói "chào" với người pha chế không giúp chúng ta có được huy chương vàng của giải Người Giao Thiệp Rộng Olympic đâu.
 
 ```
 hong({ body:"point", eyes:"surprise" });
