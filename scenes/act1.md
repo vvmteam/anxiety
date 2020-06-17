@@ -22,7 +22,7 @@ n: _BẠN_ LÀ SỰ LO ÂU ĐẤY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Ô này! Chúng ta quay lại đây rồi nhỉ?
+h: Ô này! Chúng ta quay lại đây rồi nè?
 
 `hong({eyes:"0_neutral"})`
 
@@ -30,7 +30,7 @@ n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI CỦA BẠN KHỎI *SỰ
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: SỰ THẬT LÀ, CHƠI LẠI TRÒ CHƠI NÀY ĐÃ KHIẾN HỌ GẶP *NGUY HIỂM* NGAY BÂY GIỜ RỒI
+n: THẬT RA, CHƠI LẠI TRÒ CHƠI NÀY ĐÃ KHIẾN HỌ GẶP *NGUY HIỂM* RỒI
 
 n: NHANH NÀO, CẢNH BÁO HỌ ĐI!
 
@@ -165,7 +165,7 @@ h: Được rồi hãy quay lại câu chuyện nào.
 Game.clearText();
 ```
 
-n4: (HÃY ĐỂ SỰ LO ÂU _CỦA_ _BẠN_ THỂ HIỆN NHỮNG ĐIỀU TƯƠNG TỰ VỚI NỖI SỢ _CỦA_ _BẠN_ NÀO)
+n4: (HÃY ĐỂ SỰ LO ÂU _CỦA_ _BẠN_ THỂ HIỆN NHỮNG ĐIỀU TƯƠNG TỰ VỚI NỖI SỢ _CỦA_ _BẠN_)
 
 ```
 sfx("squeak");
@@ -187,7 +187,7 @@ n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *SỰ NGUY HIỂM
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: SỰ THẬT LÀ, CÁI SANDWICH ĐÓ ĐANG KHIẾN HỌ GẶP *NGUY HIỂM* NGAY LÚC NÀY
+n: SỰ THẬT LÀ, CÁI SANDWICH ĐÓ ĐANG KHIẾN HỌ GẶP *NGUY HIỂM*
 
 n: NHANH NÀO, CẢNH BÁO HỌ ĐI!
 
@@ -352,7 +352,7 @@ b: Tin vào bản thân mình đi! Cảm xúc của cậu luôn có giá trị m
 
 n: HÃY ĐƯA THANH NĂNG LƯỢNG CỦA CON NGƯỜI VỀ MỨC 0
 
-n: ĐỂ BẢO VỆ NHU CẦU VẬT CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA HỌ, BẠN CÓ THỂ DÙNG:
+n: ĐỂ BẢO VỆ NHU CẦU THỂ CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA HỌ, BẠN CÓ THỂ DÙNG:
 
 n: NỖI SỢ *BỊ TỔN HẠI* #harm#
 
@@ -499,7 +499,7 @@ b: hoặc tồi tệ hơn... BÁNH MÌ TRẮNG
 {{/if}}
 
 {{if _.whitebread}}
-b: Chúng ta sẽ dùng ma túy đá và bánh mì trắng quá liều, họ sẽ chẳng thể nào nhét vừa cái xác mập mạp của chúng ta vào lò hỏa táng!
+b: Chúng ta sẽ dùng cần sa và bánh mì trắng quá liều, họ sẽ chẳng thể nào nhét vừa cái xác mập mạp của chúng ta vào lò hỏa táng!
 {{/if}}
 
 {{if !_.whitebread}}
@@ -562,7 +562,7 @@ b: Vậy nên nếu đi chúng ta sẽ khiến họ thấy tồi tệ, nhưng n�
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: TẤT CẢ ĐIỀU CHÚNG TA LÀM LÀ KHIẾN NGƯỜI KHÁC THẤY TỆ, NÊN CHÚNG TA CŨNG PHẢI THẤY TỆ
+b: MỌI THỨ CHÚNG TA LÀM ĐỀU KHIẾN NGƯỜI KHÁC THẤY TỆ, NÊN CHÚNG TA CŨNG PHẢI THẤY TỆ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -827,7 +827,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Cậu biết việc khi con người chạy trốn họ chạy tán loạn thế nào không??
+b: Cậu biết khi con người chạy trốn họ chạy tán loạn thế nào không?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -1153,7 +1153,7 @@ b: NGUY HIỂM NGUY HIỂM NGUY HIỂM NGUY HIỂM NGUY HIỂM NGUY HIỂM
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[Chúng ta chỉ đang *được sử dụng* bởi người khác.](#act1f_used_by_others)
+[Chúng ta chỉ đang *bị sử dụng* bởi người khác.](#act1f_used_by_others)
 
 [Chúng ta chỉ đang *sử dụng* người khác.](#act1f_using_others)
 
@@ -1178,7 +1178,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Vấn đề là CHÚNG TA SẮP CHẾT TRONG CÔ ĐỘC RỒI ĐẤY
+b: Vậy là CHÚNG TA SẮP CHẾT TRONG CÔ ĐỘC RỒI ĐẤY
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1218,7 +1218,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ Tôi muốn trở thành, người ^nốn^ lừng nhất-
+b: ♫ Tôi muốn trở thành, người ^nốn lừng^ nhất-
 
 (...500)
 
@@ -1245,7 +1245,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ cùng con ciu ^ướt đẫm^ và hòn bi tròn!-
+b: ♫ cùng ^con ciu^ ướt đẫm và ^hòn bi^ tròn!-
 
 (...1000)
 
@@ -1264,7 +1264,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Vấn đề nằm ở việc chúng ta là mấy kẻ thao túng cặn bã ha.
+b: Lí do nằm ở việc chúng ta là mấy kẻ thao túng cặn bã đấy.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1282,11 +1282,11 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: Họ sẽ bẫy cậu vào một cái giếng và bắt cậu ăn bánh mì trắng để vỗ béo cậu, rồi họ có thể lột da cậu làm áo đấy!
+b: Họ sẽ bẫy cậu vào một cái giếng và bắt cậu ăn bánh mì trắng để vỗ béo cậu, rồi lột da cậu làm áo đấy!
 {{/if}}
 
 {{if _.parasite}}
-b: Họ sẽ ép buộc cậu bằng một chiếc đồng hồ bấm giờ và nói "ĐỒ KÍ SINH TRÙNG ĐÁNG LẼ RA MÀY PHẢI NÊN LÀM VIỆC CHĂM CHỈ HƠN"
+b: Họ sẽ ép cậu bằng một chiếc đồng hồ bấm giờ và nói "ĐỒ KÍ SINH TRÙNG ĐÁNG LẼ RA MÀY PHẢI NÊN LÀM VIỆC CHĂM CHỈ HƠN"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1294,7 +1294,7 @@ b: Họ sẽ xé thịt của cậu thành một đống bùi nhùi đẫm máu,
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: THỨ ĐÓ để tổ chức bữa tiệc thì thế nào nhỉ?!
+b: THỨ ĐÓ dùng để tổ chức bữa tiệc thì thế nào nhỉ?!
 {{/if}}
 
 ```
@@ -1354,7 +1354,7 @@ b: Sẽ ổn thôi mà.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Vì là một chú sói bảo vệ trung thành, tôi sẽ luôn để mắt đến những điều nguy hiểm, và cố gắng hết sức để giữ cho cậu an toàn.
+b: Vì là một chú sói bảo vệ trung thành, tôi sẽ luôn để mắt đến những điều nguy hiểm, và cố gắng hết sức để giữ cho cậu được an toàn.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1561,7 +1561,7 @@ n: CHÚC MỪNG
 
 (...500)
 
-n: BẠN ĐÃ BẢO VỆ THÀNH CÔNG NHU CẦU VẬT CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA CON NGƯỜI CỦA BẠN
+n: BẠN ĐÃ BẢO VỆ THÀNH CÔNG NHU CẦU THỂ CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA CON NGƯỜI CỦA BẠN
 
 n: TẠI SAO À, TRÔNG HỌ TUYỆT VỜI GHÊ CHƯA!
 

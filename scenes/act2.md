@@ -355,11 +355,11 @@ b: Đóng góp cho nhân loại? Tất cả những công trình vĩ đại đ�
 
 `bb({eyes:"sad_r"})`
 
-b: Và xem cái chết nhiều chừng nào kìa! *Chúng ta* sẽ chết. *Người chúng ta yêu* sẽ chết.
+b: Và xem có bao nhiêu cái chết kìa! *Chúng ta* sẽ chết. *Người chúng ta yêu* sẽ chết.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Há, Định luận 2 Nhiệt động lực học nói rằng thậm chí *vũ trụ* của chúng ta rồi sẽ chết!
+b: Há, Định luật 2 Nhiệt động lực học nói rằng thậm chí *vũ trụ* của chúng ta rồi sẽ chết!
 
 `bb({eyes:"suspect", body:"normal"})`
 
@@ -388,7 +388,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... cậu nghe thấy tôi nói gì không, con người?
+b: Um... cậu nghe thấy tôi nói gì không vậy, con người?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -454,7 +454,7 @@ _.a2_hoodie_callback = "sự cách li";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: ĐỪNG LÀM MẤY TRÒ KINH TỞM ĐẤY. NHƯ VẬY LÀ PHẠM LUẬT!
+b: ĐỪNG LÀM MẤY TRÒ KINH TỞM ĐẤY. NHƯ VẬY LÀ PHẠM PHÁP!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -479,7 +479,7 @@ sfx("gravel");
 
 (...501)
 
-b: Đạo luật Chống biến thái, Mục 74.5: (1) Bất cứ ai có hành vi soi mói (a) cơ ngực của người khác (b) mông của người khác (2) đều được xem là
+b: Đạo luật Chống biến thái, Mục 74.5: (1) Bất cứ ai có hành vi soi mói (a) ngực của người khác (b) mông của người khác (2) đều được xem là
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
@@ -497,7 +497,7 @@ _.a2_hoodie_callback = "luật lệ";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Thật sự thì, dù cho cậu có tìm ra một múc đích đáng để sống, cậu *vẫn* có thể khiến mọi thứ trở nên hỗn loạn!
+b: Thật sự thì, dù cho cậu có tìm ra một mục đích đáng để sống, cậu *vẫn* có thể khiến mọi thứ trở nên hỗn loạn!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
@@ -509,7 +509,7 @@ b: Vậy nên ông ta cần một cách để tạo ra đường hầm xe lửa 
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: thứ được dùng trong Thế chiến Thứ nhất đã GIẾT HÀNG TRIỆU NGƯỜI
+b: thứ được dùng trong Thế chiến Thứ nhất và GIẾT CHẾT HÀNG TRIỆU NGƯỜI
 
 `bb({body:"two_up", eyes:"shock"})`
 
@@ -533,7 +533,7 @@ b: Thật sự thì, cậu biết điều gì tồi tệ hơn việc không ai t
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: Đó là, trở thành một trong *những* con động vật vui thú chạy theo bữa tiệc đấy.
+b: Đó là, trở thành một trong *những* con vật vui thú chạy theo bữa tiệc đấy.
 
 `bb({body:"normal", mouth:"small"})`
 
@@ -541,7 +541,7 @@ b: Một cuộc sống nông cạn cùng những người bạn nông cạn, nh�
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Con người à, chúng ta cần phải chạy khỏi lũ thây ma chỉ muốn hài lòng trước khi chúng biến chúng ta thành họ!
+b: Con người à, chúng ta cần phải chạy khỏi lũ thây ma chỉ muốn được hài lòng trước khi chúng biến chúng ta thành họ!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -715,7 +715,7 @@ b: trừ khi họ bí mật *làm* điều đó
 
 `bb({body:"scream_a_1"})`
 
-b: bởi vì họ chính là LOẠI SIÊU RÁC THẢI KINH TỞM BIẾN THÁI
+b: bởi vì họ cũng chính là LOẠI SIÊU RÁC THẢI KINH TỞM BIẾN THÁI
 
 `_.a2_attack_3 = "bad";`
 
@@ -751,7 +751,7 @@ b: BÙM, CẬU PHÁ HOẠI HỆ THỐNG CHĂM SÓC SỨC KHỎE VÀ HÀNG TRĂM 
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: Những con thây ma muốn hài lòng đấy sẽ nhào về phía cậu và lầm bầm,
+b: Những con thây ma muốn được hài lòng đấy sẽ nhào về phía cậu và lầm bầm,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
@@ -771,7 +771,7 @@ b: Rồi họ sẽ CẮN CẬU và biến cậu thành một tên NÃO PHẲNG v
 
 `bb({body:"scream_a_1"})`
 
-b: ĐỨC QUỐC XÃ SẮP DIỄU HÀNH LẠI TRÊN NHỮNG CON ĐƯỜNG RỒI
+b: ĐỨC QUỐC XÃ LẠI SẮP DIỄU HÀNH TRÊN NHỮNG CON ĐƯỜNG RỒI
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
@@ -795,7 +795,7 @@ b: Hãy suy nghĩ đi, chúng ta có biết việc tòa nhà này *có* máy ph�
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: Giả sử nếu *NGAY BÂY GIỜ* chúng ta bị đầu độc thì sao?
+b: Giả sử nếu *NGAY BÂY GIỜ* chúng ta đang bị đầu độc thì sao?
 
 `bb({body:"scream_a_1"})`
 
@@ -930,9 +930,9 @@ h: *Tôi đáng yêu. Tôi tốt bụng. Tôi thông minh. Tôi xinh đẹp. Tô
 
 [Xời ơi, cậu đang tự ái kìa!](#act2d_narcissist)
 
-[Cậu có biết sự khẳng định đều là những điều *chưa được chứng minh* không?](#act2d_disproven)
+[Khẳng định đều là những điều *chưa được chứng minh* đấy.](#act2d_disproven)
 
-[dân bản địa nào lại đi kể mấy thứ đấy](#act2d_racist)
+[dân bản xứ nào lại đi kể mấy thứ đấy](#act2d_racist)
 
 # act2d_disproven
 
@@ -946,7 +946,7 @@ b: Đấy là một nghiên cứu được thiết kế kĩ lưỡng - thử ngh
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Kết quả: nếu cậu đã có lòng tự trọng thấp, bị hỏi để lặp lại sự khẳng định sẽ khiến cậu thấy *tồi tệ hơn* khi cậu chẳng nói gì cả!
+b: Kết quả: nếu cậu đã có lòng tự trọng thấp, bị hỏi để lặp lại sự khẳng định sẽ khiến cậu thấy *tồi tệ hơn* là khi cậu chẳng nói gì cả!
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
@@ -1034,7 +1034,7 @@ h: Cậu là thứ thừa thãi vô dụng còn sót lại sau khi tiến hóa, 
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Má nó^, con sói để ẩn dụ này thật ngu ngốc! Cậu chỉ là một đống hóa chất thần kinh trong đầu tôi thôi.
+h: ^Má nó^, con sói ẩn dụ này thật ngu ngốc! Cậu chỉ là một đống hóa chất thần kinh trong đầu tôi thôi.
 
 `hong({body:"cross", mouth:"cross"})`
 
@@ -1048,7 +1048,7 @@ b: ...
 
 [Tôi là cảm xúc. Cảm xúc cũng có giá trị riêng của nó.](#act2e_valid)
 
-[Con người à, chúng ta chỉ *đều* là "chất hóa học" đấy."](#act2e_rational)
+[Con người à, chúng ta *đều* chỉ là "chất hóa học" đấy.](#act2e_rational)
 
 # act2e_hurtful
 
@@ -1257,18 +1257,18 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Nghe nha, mới hôm qua thôi, tôi nghe nói có ai đó ở trong trường đã lo lắng tới mức đập nát cái điện thoại của họ luôn!
+r: Nói này, mới hôm qua thôi, tôi nghe nói có ai đó ở trong trường đã lo lắng tới mức đập nát cái điện thoại của họ luôn!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Nghe nha, mới hôm qua thôi, tôi nghe nói có ai đó đã cuộn tròn lại thành một quả bóng và khóc òa luôn!
+r: Nói này, mới hôm qua thôi, tôi nghe nói có ai đó đã cuộn tròn lại thành một quả bóng và khóc òa luôn!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Nghe này: Tôi biết trong đầu cậu có một con vật.
+r: Và, tôi biết trong đầu cậu có một con vật.
 
 ```
 publish("act2",["party_hunter",8]);
@@ -1288,7 +1288,7 @@ publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Đừng lo, nhóc à. Tôi cũng từng như cậu thôi. Nhưng rồi tôi tìm ra một mẹo nhỏ để khiến giọng nói tiêu cực đó im lặng mãi mãi...
+r: Đừng lo, nhóc à. Tôi cũng từng như cậu thôi. Nhưng rồi tôi đã tìm ra một mẹo nhỏ để khiến giọng nói tiêu cực đó im lặng mãi mãi...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1379,7 +1379,7 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 
 h: Mmm, ngon vãi mèo!
 
-h: Hương vị êm dịu của "câm mồm đi lí trí," kết hợp với một chút "không còn cảm thấy gì nữa" thật tuyệt vời!
+h: Hương vị êm dịu của "câm mồm đi lí trí," kết hợp cùng một chút "không còn cảm thấy gì nữa" thật tuyệt vời!
 
 b: Tệ rồi đấy, con người ạ. Thật sự, thật sự tệ rồi đấy.
 
@@ -1432,7 +1432,7 @@ h: Và *cậu* định làm gì đây, ^đồ khốn nạn^?
 
 b: Tôi vô cùng xin lỗi, con người ạ.
 
-b: Tôi sẽ phải dùng ĐÒN TẤN CÔNG ĐẶC BIỆT của tôi
+b: Tôi sẽ phải dùng ĐÒN TẤN CÔNG ĐẶC BIỆT của tôi.
 
 ```
 bb({body:"special_a"});
@@ -1531,7 +1531,7 @@ b: Họ khiến cậu tha hóa, khiến cậu hỗn loạn như họ!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Đấm vào mặt tên khốn đó đi! Đấm chết mợ ả đi!
+b: Đấm vào mặt tên khốn đó đi! Đấm chết mợ hắn đi!
 
 `bb({ body:"final_1" });`
 
@@ -1543,7 +1543,7 @@ b: ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI ĐẤM ĐI 
 
 # act2j_flight
 
-b: Tôi *biết* những tên đến dự tiệc đấy sâu bên trong họ đều hỗn loạn. Họ đều có những vết thương với những thứ tồi tệ!
+b: Tôi *biết* những tên đến dự tiệc đấy sâu bên trong họ đều hỗn loạn. Họ đều có những vết thương cùng những điều tồi tệ!
 
 `bb({ body:"yell_1" });`
 

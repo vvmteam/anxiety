@@ -1264,7 +1264,7 @@ b: Không có nó, mọi thứ sẽ thật cũ kĩ và nhàm chán.
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Và không có nó, chúng ta sẽ không thể kết nói được với những người bạn cũng mắc sự rối loạn này đúng không?
+b: Và không có nó, chúng ta sẽ không thể kết nối được với những người bạn cũng mắc sự rối loạn này đúng không?
 
 `bb({ eyes:"sad", body:"chest" })`
 
@@ -1334,7 +1334,7 @@ b: Ừm bức tường thứ tư *đấy* sẽ không tồn tại lâu đâu ha.
 
 `hong({ body:"point" });`
 
-h: Có nhiều như còn quan trọng hơn các tiêu chuẩn thường ngày. Như sức khỏe tinh thần chẳng hạn.
+h: Có nhiều thứ còn quan trọng hơn các tiêu chuẩn thường ngày. Như sức khỏe tinh thần chẳng hạn.
 
 (#act4_something_else)
 
@@ -1402,7 +1402,7 @@ b: Những nhà biên kịch Hollywood đang lãng mạn hóa bệnh tâm lí đ
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Mắc phải Having a mental disorder *sucks!* It robs people of *lives!* Tại sao chúng ta nên "chấp nhận" điều đó?!
+b: Mắc phải rối loạn tinh thần thật *khốn nạn!* Nó đã cướp đi *cuộc sống* của rất nhiều người! Vậy tại sao chúng ta lại nên "chấp nhận" điều đó?!
 
 `bb({ body:"normal" });`
 
@@ -1694,7 +1694,7 @@ s: HỌ ĐANG *QUÁ* THÂN THIỆN! NHƯ TED BUNDY, KẺ GIẾT NGƯỜI HÀNG L
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: HỌ CHỈ TỎ RA TỐT BỤNG THÔI! CHẲNG AI *THẬ SỰ* MUỐN GẦN GŨI VỚI CHÚNG TA CẢ!
+s: HỌ CHỈ TỎ RA TỐT BỤNG THÔI! CHẲNG AI *THẬT SỰ* MUỐN GẦN GŨI VỚI CHÚNG TA CẢ!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
