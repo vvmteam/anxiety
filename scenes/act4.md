@@ -1087,7 +1087,7 @@ h: Trong đấu trường xã hội, thậm chí chúng ta còn chẳng phù h�
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Nếu bắt đầu từ những việc nhỏ nhất, thì cứ tới thôi. Phải trèo được bước đầu tiên thì mới đến được bức thứ 1000 chứ.
+h: Nếu bắt đầu từ những việc nhỏ nhất, thì cứ tới thôi. Phải trèo được bước đầu tiên thì mới đến được bước thứ 1000 chứ.
 
 b: Ừa! Có lẽ sau khi nói "Chào", chúng ta có thể tiếp tục nói gì đó...
 
@@ -1127,7 +1127,7 @@ hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Cậu biết đấy, mấy thứ "kĩ năng giao tiếp giữa mỗi người" được viết đầy trong mớ tài liệu tư vấn tâm lý đấy.
+h: Cậu biết đấy, mấy thứ "kĩ năng giao tiếp giữa mỗi người" được viết đầy trong mớ tài liệu tư vấn tâm lý mà.
 
 (#act4_something_else)
 
@@ -1307,7 +1307,7 @@ h: Và thật khốn nạn khi nhiều người chẳng thể nào chi trả n�
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Với lại, vẫn còn những lựa chọn rẻ hoặc miễn phí cơ mà:
+h: Với lại, vẫn còn những lựa chọn rẻ hoặc miễn phí khác cơ mà:
 
 `hong({ body:"chin" })`
 
@@ -1356,7 +1356,7 @@ b: Chờ đã.
 
 ["Chấp nhận" có nghĩa là *từ bỏ* ấy?](#act4_bad_accept_give_up)
 
-["Chấp nhận" có nghĩa là *phê duyệt* ấy?](#act4_bad_accept_approve)
+["Chấp nhận" có nghĩa là *chứng minh* ấy?](#act4_bad_accept_approve)
 
 ["Chấp nhận" *theo nghĩa đen* ấy?](#act4_bad_accept_literally)
 
@@ -1372,9 +1372,9 @@ b: Tại sao Khu phức hợp Tự giúp đỡ lại nghĩ rằng vẫy cờ tr�
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: Tôi nghĩ những nhà trị liệu khi nói rằng "chấp nhận" những điều xấu thì có nghĩa: thừa nhận sự tồn tại của chúng và chúng thật khó để thay đổi,
+h: Tôi nghĩ khi những nhà trị liệu nói rằng "chấp nhận" những điều xấu thì có nghĩa: thừa nhận sự tồn tại của chúng và chúng thật khó để thay đổi,
 
-h: Nhưng điều này không có nghĩa chúng ta từ bỏ sự thay đổi.
+h: Nhưng điều này không có nghĩa chúng ta sẽ từ bỏ sự thay đổi.
 
 `bb({ eyes:"suspect" });`
 
@@ -1402,11 +1402,11 @@ b: Những nhà biên kịch Hollywood đang lãng mạn hóa bệnh tâm lí đ
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Mắc phải rối loạn tinh thần thật *khốn nạn!* Nó đã cướp đi *cuộc sống* của rất nhiều người! Vậy tại sao chúng ta lại nên "chấp nhận" điều đó?!
+b: Mắc phải chứng rối loạn tinh thần thật *khốn nạn!* Nó đã cướp đi *cuộc sống* của rất nhiều người! Vậy tại sao chúng ta lại nên "chấp nhận" điều đó?!
 
 `bb({ body:"normal" });`
 
-h: Tôi nghĩ những nhà trị liệu khi nói rằng "chấp nhận" cảm xúc của chúng ta thì có nghĩa: hãy kiên nhẫn với chúng.
+h: Tôi nghĩ khi những nhà trị liệu nói rằng "chấp nhận" cảm xúc của chúng ta thì có nghĩa: hãy kiên nhẫn với chúng.
 
 ```
 hong({ body:"one_up" });
@@ -1455,7 +1455,7 @@ b: Toàn bộ *vấn đề* ở đây là tôi muốn giúp cậu, nhưng tôi q
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: Tôi nghĩ những nhà trị liệu khi nói rằng "chấp nhận" cảm xúc của cậu thì có nghĩa: "đừng chiến đấu hay phớt lờ chúng."
+h: Tôi nghĩ khi những nhà trị liệu nói rằng "chấp nhận" cảm xúc của cậu thì có nghĩa: "đừng chiến đấu hay phớt lờ chúng."
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
