@@ -1655,7 +1655,7 @@ s: AHHHHH TÔI BIẾT MÀ! HỌ LÀ LOẠI NGUY HIỂM CÓ TÂM LÍ HOẢNG LO�
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH ẤN TƯỢNG ĐẦU TIÊN CHÚNG TA TẠO RA LÀ "CHỨNG KIẾN CHẤN THƯƠNG CỦA TÔI"! CÓ NGHĨA HỌ GHÉT CHÚNG TA RỒI!
+s: AAHHH ẤN TƯỢNG ĐẦU TIÊN CHÚNG TA TẠO RA LÀ "NHỚ LẠI CHẤN THƯƠNG"! CÓ NGHĨA HỌ GHÉT CHÚNG TA RỒI!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
@@ -1729,7 +1729,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: HỌ ĐANG PHẢI ĐỐI PHÓ VỚI CÁI THỨ SUY NGHĨ KINH TỞM GÌ THẾ?! HỌ MUỐN LÀM GÌ ĐỂ LẤP ĐẦY TRÁI TIM BỆNH HOẠN CỦA HỌ?!
+s: HỌ ĐANG PHẢI ĐỐI PHÓ VỚI CÁI THỨ SUY NGHĨ KINH TỞM GÌ THẾ?! HỌ MUỐN LÀM GÌ ĐỂ LẤP ĐẦY TRÁI TIM BỆNH HOẠN CỦA HỌ VẬY?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
