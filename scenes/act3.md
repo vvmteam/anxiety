@@ -44,14 +44,14 @@ publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: Cậu làm tôi nhớ lại hồi mình còn trẻ. Hồi đó tôi đi con vật trong đầu hành hạ.
+r: Cậu làm tôi nhớ lại hồi mình còn trẻ. Hồi đó tôi bị con vật trong đầu hành hạ.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Tôi rất vui khi có thể vượt qua được điều đó, và giúp cậu giết chúng theo cách mà tôi đã làm.
+r: Tôi rất vui khi có thể vượt qua được điều đó, và giúp cậu giết được chúng theo cách mà tôi đã làm.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -359,7 +359,7 @@ b: con người à, làm ơn...
 
 h: Ồ *xin lỗi* ha, mấy công ty thuốc kia không cho phép tôi tự dùng thuốc.
 
-h: Nhìn đi ^tên khốn^, *tất cả* chúng ta đều có cách làm cậu câm ^cmn^ mồm lại.
+h: Nhưng nhìn đi ^tên khốn^, *tất cả* chúng ta đều có cách làm cậu câm ^cmn^ mồm lại.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
@@ -931,7 +931,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Hình như họ mới khóa cửa thì phải?
+r: Hình như họ khóa cửa lại rồi thì phải?
 
 ```
 Game.clearAll();

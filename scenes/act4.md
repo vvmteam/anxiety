@@ -547,7 +547,7 @@ h: Vì vậy: đây *chính là* đào tạo tự bảo vệ bản thân.
 
 `bb({ eyes:"normal_r" })`
 
-b: Hừm. Tôi còn trông đợi nhiều hơn thế đấy:
+b: Hừm. Tôi còn trông đợi nhiều hơn thế đấy.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -578,7 +578,7 @@ bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: Dù cho ly thủy tinh đó rỗng đến 69%, cậu vẫn có thể nói nó có 1% nước mà ha?
+b: Dù cho ly thủy tinh đó rỗng đến 99%, cậu vẫn có thể nói nó có 1% nước mà ha?
 
 `bb({ eyes:"normal" });`
 
@@ -647,7 +647,7 @@ h: Đó được gọi là liệu pháp tiếp xúc!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Vì cậu là chó nên như vậy cũng sẽ có tác dụng mà nhỉ? Tất cả các loài động vật có vú khác đều có cùng Phản ứng Chiến-hay-Chạy như nhau mà nhỉ.
+h: Vì cậu là chó nên như vậy cũng sẽ có tác dụng mà nhỉ? Tất cả các loài động vật có vú khác đều có cùng Phản ứng Chiến-hay-Chạy như nhau mà.
 
 `hong({ body:"normal" });`
 
@@ -914,7 +914,7 @@ b: Có thật nhiều lựa chọn. Nhưng, về việc "học những kĩ năng
 
 `bb({ eyes:"suspect" });`
 
-b: Không phải những tên giết người hàng loạt có thể đọc được cảm xúc của nạn nhân luôn giỏi ở "sự đồng cảm" sao?
+b: Không phải những tên giết người hàng loạt có thể đọc được cảm xúc của nạn nhân luôn giỏi ở việc "đồng cảm" sao?
 
 `bb({ eyes:"annoyed" });`
 
@@ -959,7 +959,7 @@ h: Không, cậu nói đúng. "Kĩ năng xã hội" không chỉ để làm hài
 
 `hong( body:"one_up" });`
 
-h: Chúng ta không thể mời người khác vào nhà, nếu như ngôi nhà của chúng ta không có tường để bảo vệ.
+h: Chúng ta không thể mời người khác vào nhà, nếu như ngôi nhà của chúng ta không có tường bảo vệ.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
@@ -981,7 +981,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: Và điều đó ổn mà! Khi bắt đầu học một điều gì đó mới mẻ, chúng ta luôn có thể vấp ngã mà!
+h: Và điều đó ổn mà! Khi bắt đầu học một điều gì đó mới mẻ, chúng ta luôn có thể vấp ngã!
 
 `hong({ body:"normal", eyes:"normal" });`
 
