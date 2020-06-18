@@ -1081,7 +1081,7 @@ CORNER TEXT
 #share #share_em{
 	background-position: -60px;
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 800px) {
 	.corner-text {
 	display: none;}
 	.corner-text2 {
